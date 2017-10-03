@@ -14,6 +14,7 @@
 		495A26BA1F84311C00BC43A4 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 495A26B81F84311C00BC43A4 /* LaunchScreen.storyboard */; };
 		495A26C51F84311D00BC43A4 /* sMusicTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 495A26C41F84311D00BC43A4 /* sMusicTests.swift */; };
 		495A26D01F84311D00BC43A4 /* sMusicUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 495A26CF1F84311D00BC43A4 /* sMusicUITests.swift */; };
+		495A26DE1F84324E00BC43A4 /* Utils.swift in Sources */ = {isa = PBXBuildFile; fileRef = 495A26DD1F84324E00BC43A4 /* Utils.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +48,7 @@
 		495A26CB1F84311D00BC43A4 /* sMusicUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = sMusicUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		495A26CF1F84311D00BC43A4 /* sMusicUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = sMusicUITests.swift; sourceTree = "<group>"; };
 		495A26D11F84311D00BC43A4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		495A26DD1F84324E00BC43A4 /* Utils.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Utils.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -99,6 +101,7 @@
 			children = (
 				495A26AF1F84311C00BC43A4 /* AppDelegate.swift */,
 				495A26B11F84311C00BC43A4 /* ViewController.swift */,
+				495A26DD1F84324E00BC43A4 /* Utils.swift */,
 				495A26B31F84311C00BC43A4 /* Main.storyboard */,
 				495A26B61F84311C00BC43A4 /* Assets.xcassets */,
 				495A26B81F84311C00BC43A4 /* LaunchScreen.storyboard */,
@@ -261,6 +264,7 @@
 			files = (
 				495A26B21F84311C00BC43A4 /* ViewController.swift in Sources */,
 				495A26B01F84311C00BC43A4 /* AppDelegate.swift in Sources */,
+				495A26DE1F84324E00BC43A4 /* Utils.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
